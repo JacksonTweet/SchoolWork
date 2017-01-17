@@ -1,12 +1,13 @@
-// Andrew Wiik
-// Lab 9
-// Date: 10/30/2015
-
+ /*====================*\ 
+||     Code Writer:     ||
+||     Jackson Tweet    ||
+||     Discription:     || 
+|| A Java lab for class || 
+ \*====================*/
 
 import java.util.Scanner;
 
-
-public class Lab09avst
+public class Lab09jt
 {
     private static int num, den;   // numerator and denominator of the rational number
 
@@ -36,31 +37,32 @@ class Rational
     private int den;
     public Rational(int numPriv, int denPriv)
     {
-    num = numPriv;
-    den = denPriv;
+      num = numPriv;
+      den = denPriv;
     }
     public int getNum()
     {
-    return num;
+      return num;
     }
     public int getDen()
     {
-    return den;
+      return den;
     }
     private String getOriginal()
     {
-    return getNum() + "/" + getDen();
-}
-   private float getDecimal()
+      return getNum() + "/" + getDen();
+    }
+    private float getDecimal()
     {
-    float decimalNumber = ((float) num) / den;
-    return decimalNumber;
-}
+      float decimalNumber = ((float) num) / den;
+      return decimalNumber;
+    }
     public void displayData()
     {
         System.out.println();
         System.out.println(getOriginal()+ " equals " + getDecimal());
-        
+        System.out.println();
+        System.out.println();
         System.out.println();
     }
 
@@ -84,10 +86,3 @@ class Rational
         while (rem != 0);
     } 
 }
-
-
-
-
-
-
-
