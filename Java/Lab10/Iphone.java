@@ -4,9 +4,14 @@
 * Pearson
 */
 
-public class iphone {
+import java.awt.*;
+import java.applet.*;
 
-    public static void main(String[] args) {
-     camera.camera()
+public class iphone extends Applet
+{
+
+    public void paint(Graphics g)
+    {
+        camera.camera()
     }
 }
