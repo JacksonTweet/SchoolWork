@@ -12,6 +12,9 @@ public class iphone extends Applet
 
     public void paint(Graphics g)
     {
-        camera.camera()
+        shape.corner();
+        
+        detail.iphonetxt();
+        detail.applelogo();
     }
 }
