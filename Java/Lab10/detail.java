@@ -9,11 +9,18 @@ public class detail extends Applet
     {
 
     }
+    
     public void iphonetxt(Graphics g)
     {
         g.drawString("iphone", 25, 25);
     }
-    public void iphonetxt(Graphics g)
+    
+    public void sthing(Graphics g)
+    {
+        g.drawString("iphone", 25, 25);
+    }
+    
+    public void sthing(Graphics g)
     {
         g.drawString("iphone", 25, 25);
     }
