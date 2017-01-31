@@ -2,7 +2,7 @@
 import java.awt.*;
 import java.applet.*;
 
-public class detail extends Applet
+class detail
 {
 
     public void paint(Graphics g)
@@ -10,18 +10,21 @@ public class detail extends Applet
 
     }
     
-    public void iphonetxt(Graphics g)
+    public static void iphonetext(Graphics g)
     {
         g.drawString("iphone", 25, 25);
+        return;
     }
     
-    public void sthing(Graphics g)
+    public static void sthing(Graphics g)
     {
         g.drawString("iphone", 25, 25);
+        return;
     }
     
-    public void sthing(Graphics g)
+    public static void applelogo(Graphics g)
     {
         g.drawString("iphone", 25, 25);
+        return;
     }
 }
