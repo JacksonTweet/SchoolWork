@@ -17,8 +17,8 @@ public class iphone extends Applet
         shape.volume2();
         shape.muteringer();        
         
-        detail.iphonetxt();
-        detail.iphonetxt();
-        detail.applelogo();
+        detail.iphonetext(g);
+        detail.sthing(g);
+        detail.applelogo(g);
     }
 }
