@@ -4,10 +4,12 @@ import java.applet.*;
 class camera extends iphone
 { private int cameratopX;
   private int cameratopY;
-  private int camerawidth;
-  private int cameralenth;
+  private int cameraHeight;
+  private int cameraWidth;
   
   public camera()
-  cameraStart = new Point(
-  
+  cameraStart = new Point(25,25);
+  cameraHeight = 25;
+  cameraWidth = 25:
+  cameraColor = Color.black;
 }
