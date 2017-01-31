@@ -12,10 +12,10 @@ public class iphone extends Applet
 
     public void paint(Graphics g)
     {
-        shape.corner();
-        shape.volume1();
-        shape.volume2();
-        shape.muteringer();        
+        shape.corner(g);
+        shape.volume1(g);
+        shape.volume2(g);
+        shape.muteringer(g);        
         
         detail.iphonetext(g);
         detail.sthing(g);
