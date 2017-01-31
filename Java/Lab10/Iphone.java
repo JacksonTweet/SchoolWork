@@ -1,7 +1,7 @@
 /*
 * Written/Coded by:  
 * Jackson Tweet &
-* Pearson
+* Pearson Kerchner
 */
 
 import java.awt.*;
