@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.applet.*;
 
-
-public class camera extends Applet
+class camera extends Applet
 {
+}
