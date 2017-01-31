@@ -9,4 +9,8 @@ public class detail extends Applet
     {
 
     }
+    public void iphonetxt(Graphics g)
+	{
+        g.drawString("iphone", 25, 25);
+	}
 }
