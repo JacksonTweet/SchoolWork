@@ -19,7 +19,7 @@ class detail
     public static void sthing(Graphics g)
     {
         g.drawString("s", 195, 400);
-        
+        //g.drawArc
         return;
     }
     
