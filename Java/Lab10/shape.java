@@ -11,10 +11,10 @@ class shape extends Applet
 
     }
     
-    public static void corner(Graphics g)
+    public static void body(Graphics g)
     {
         g.drawArc(100,100,100,100,90,90); //sd[lfjposdj
-        
+        g.drawLine(100,300);
         g.drawArc(300,100,100,100,90,-90); //'hgu
         
         g.drawArc(100,500,100,100,-90,-90); //right bottem
