@@ -17,9 +17,9 @@ class shape extends Applet
         
         g.drawArc(300,100,100,100,90,-90); //'hgu
         
-        g.drawArc(700,100,100,100,-90,-90); //right bottem
+        g.drawArc(100,500,100,100,-90,-90); //right bottem
         
-        g.drawArc(700,700,100,100,-90,90); //left 
+        g.drawArc(300,500,100,100,-90,90); //left 
         
     }
     
