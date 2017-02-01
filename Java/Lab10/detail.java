@@ -12,13 +12,13 @@ class detail
     
     public static void iphonetext(Graphics g)
     {
-        g.drawString("iphone", 230, 500);
+        g.drawString("iPhone", 230, 500);
         return;
     }
     
     public static void sthing(Graphics g)
     {
-        g.drawString("s", 250, 520);
+        g.drawString("S", 245, 520);
         //g.drawArc
         return;
     }
