@@ -13,7 +13,7 @@ class shape extends Applet
     
     public static void corner(Graphics g)
     {
-        g.drawArc(100,100,100,100,100,100);
+        g.drawArc(100,100,100,100,90,90);
     }
     
     public static void volume1(Graphics g)
